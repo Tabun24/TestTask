@@ -55,9 +55,6 @@ public class MainActivity extends ActionBarActivity {
 		createDirectory();
 		screenBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.background);
 		format = new SimpleDateFormat("dd-MM-yyyy HH.mm.ss");
-		
-		Utils utils = new Utils();
-		utils.getJSON(screenBitmap);
 	}
 
 
